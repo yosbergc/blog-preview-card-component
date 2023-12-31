@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+main {
+    min-height: 100vh;
+    width: 100%;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    width: 90%;
+    max-width: 450px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.card-image {
+    width: 100%;
+    border-radius: 20px;
+}
+.category {
+    display: inline-block;
+    margin: 20px 0px;
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px 15px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+.date {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.article-title {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.article-summary {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 50%);
+    font-weight: 600;
+}
+.author {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.author-image {
+    width: 40px;
+}
+.author-name {
+    font-size: 17px;
+}
